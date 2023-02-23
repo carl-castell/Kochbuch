@@ -1,0 +1,29 @@
+/*.headings {
+    color: brown;
+    font-family: 'Tourney', cursive;
+    font-size: 80px;
+}
+.container {
+
+    width: fit-content;
+    background-color: aquamarine;
+    
+}
+ .section {
+    height: 200px;
+    
+ }
+
+ .center{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+ }
+
+@media only screen and (max-width: 500px) {
+    .headings {
+        color:blue;
+        font-size: 40px;
+    }
+}
