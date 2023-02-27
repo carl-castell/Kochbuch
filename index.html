@@ -11,36 +11,37 @@
     <title>Home</title>
 </head>
 <body>
-    <nav>
+    <nav class="nav-bar">
+        <img class="franken-logo" src="assets/Flagge_Franken.svg" alt="">
+        <h1>Frankonian Dishes</h1>
         <ul class="nav">
-            <h1>Frankonian Dishes</h1>
-            <img class="franken-logo" src="assets/Flagge_Franken.svg" alt="">
-            <li><a href="login.html">Log In</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="add.html">Add recepie</a></li>
+            <li><a href="index.html" class="nav-item hide">home</a></li>
+            <li><a href="contact.html" class="nav-item">Contact</a></li>
+            <li><a href="add.html" class="nav-item">Add recepie</a></li>
+            <li><a href="login.html" class="nav-item">Log In</a></li>
           </ul>
     </nav>
 
-    <main class="main">
-        <div>
+    <main class="gridd">
+        <div class="dish">
             <a href="">
-                <h2>Schnitzel mit Kartoffel Salat</h2>
+                <h2>Schnitzel</h2>
                 <img class="image" src="/assets/Franken_Schnitzel.jpg" alt="">
             </a>
         </div>
-        <div>
+        <div class="dish">
             <a href="">
                 <h2>Spargel</h2>
                 <img class="image" src="/assets/recipe_23597.jpg" alt="">
             </a>
         </div>
-        <div>
+        <div class="dish">
             <a href="">
                 <h2>Fränkische Bratwurst</h2>
                 <img class="image" src="assets/altmuehlfraenkische-bratwurst.jpg" alt="">
             </a>
         </div>
-        <div>
+        <div class="dish">
             <a href="">
                 <h2>Geschmorter Rinderbraten</h2>
                 <img class="image" src="assets/rinderbraten.jpg" alt="">
@@ -48,7 +49,7 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div>
             <span> &copy; Carl Castell 2023</span>
         </div>
