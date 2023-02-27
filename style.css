@@ -2,6 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90vw;
-    background-color: blue;
+    width: 90vw;   
+}
+
+.franken-logo {
+    height: 60px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.image {
+    width: 400px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
 }
